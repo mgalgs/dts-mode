@@ -51,10 +51,6 @@
     (modify-syntax-entry ?&  "." table)
     (modify-syntax-entry ?~  "." table)
 
-    ;; _ and , are both word characters
-    (modify-syntax-entry ?,  "_" table)
-    (modify-syntax-entry ?_  "w" table)
-
     ;; Strings
     (modify-syntax-entry ?\" "\"" table)
     (modify-syntax-entry ?\\ "\\" table)
